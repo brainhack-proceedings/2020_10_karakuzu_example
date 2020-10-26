@@ -1,41 +1,36 @@
 ---
 event: 'OHBM Brainhack 2020'
 
-title:  'Title goes here'
+title:  'This is an example report'
 
 author:
-- initials: JD
-  surname: Doe
-  firstname: Jane
-  email: janedoe@gmail.com
+- initials: AK
+  surname: Karakuzu
+  firstname: Agah
+  email: agahkarakuzu@gmail.com
   affiliation: aff1, aff2
   corref: aff1
+  url: https://agahkarakuzu.github.io
   # Please make sure that you set corref (corresponding aff) if you have
   # multiple afiliations
-- initials: JJD
-  surname: Doe
-  firstname: John J.
-  email: johndoe@gmail.com
-  affiliation: aff2
-  url: https://jonhdoe.website.com
 
 affiliations:
 - id: aff1
-  orgname: 'Research Lab 1, Organization 1'
-  street: street_name_goes_here 
-  postcode: post_code_goes_here
+  orgname: 'NeuroPoly, Polytechnique Montreal'
+  street: some street 
+  postcode: H3T 1Z9
   city: Montreal
   state: Quebec
   country: Canada
 - id: aff2
-  orgname: 'Research Lab 2, Organization 2'
-  street: street_name_goes_here 
-  postcode: post_code_goes_here
+  orgname: 'MRI Core Lab, Montreal Heart Institute'
+  street: another street 
+  postcode: H5T Y2D
   city: Montreal
   state: Quebec
   country: Canada
 
-summary: Please write a brief summary of your project. This section will appear on the webpage. 
+summary: This is a dummy report created during the sprint :) 
 
 url: http://github.com/repo_owner/repo_name
 
@@ -43,12 +38,12 @@ coi: Please add if there are competing interests. Otherwise, type None.
 
 acknow: The authors would like to thank the organizers and attendees of OHBM Brainhack 2020.
 
-contrib: JD and JJD wrote the software, JD performed tests, and JD and JJD wrote the report.
+contrib: AK did something.
 
 tags:
-  - tag1
-  - tag2
-  - tag3
+  - MRI
+  - Publishing
+  - Report
 
 supplemental:
   - Material 1
